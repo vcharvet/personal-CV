@@ -1,0 +1,208 @@
+%!TEX TS-program = lualatex
+%!TEX encoding = UTF-8 Unicode
+
+
+\documentclass[a4paper,10.5pt]{article}
+
+%loading packages
+\usepackage{array}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{fontspec} 					%for loading fonts
+\usepackage{url,parskip} 	%other packages for formatting
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo} 				%better formatting of the A4 page
+\usepackage{titlesec}	
+\usepackage{paracol}   % for multiple columns
+\usepackage{fontawesome}
+	
+% AUTHOR: Valentin Charvet
+% valentin.charvet@telecom-paristech.fr
+
+% CONFUGURATION
+
+% Configure page margins with geometry
+\geometry{left=1.3cm, top=1.5cm, right=1.3cm, bottom=1.8cm, footskip=.5cm}
+
+% Colors for text and fonts
+ \definecolor{darktext}{HTML}{414141}
+ \definecolor{text}{HTML}{333333}
+ \definecolor{graytext}{HTML}{5D5D5D}
+ \definecolor{lighttext}{HTML}{999999}
+ \definecolor{headings}{HTML}{121170}%{701112} % Dark red colour for headings
+ \definecolor{shade}{HTML}{9DDDF5} %{F5DD9D}   %TODO custom colors
+
+\titleformat{\section}{\color{headings}\scshape\LARGE\raggedright}{}{0em}{}[\color{black}\titlerule] % Define the \section format
+
+%custom column types
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+%\setlength{\columnsep}{1cm}
+%\setlength{\columnseprule}{0.1pt}
+
+
+\pagestyle{empty}
+
+% DOCUMENT
+\begin{document}
+	%title
+	\vspace{2cm}
+	\columnratio{0.6}
+	\begin{paracol}{2}
+		\begin{leftcolumn}
+%			\parbox[top][0.12\textheight][c]{\linewidth}{
+			\centering
+			{\huge Valentin Charvet } \\
+			\vspace{0.2cm}
+			\huge \textit{Junior Data Scientist}%}
+		\end{leftcolumn}
+		
+		\begin{rightcolumn}
+%			\parbox[top][0.12\textheight][c]{\linewidth}{
+			\colorbox{shade}{
+				\begin{tabular}{c|l}
+						\faHome & \large212 rue de Tolbiac - 75013 Paris \\
+						\faPhoneSquare & \large (+33) 6 63 37 43 42 \\
+						\faEnvelope &\large valentin.charvet@telecom-paristech.fr \\
+						\faGithub &\large https://github.com/vcharvet \\
+				\end{tabular}
+			}
+%		}
+	
+	\end{rightcolumn}
+			
+	\end{paracol}
+	
+%	\rule{0.7\linewidth}{1pt} %TODO change rule
+
+
+\setlength{\columnsep}{0.75cm}
+\setlength{\columnseprule}{0.1pt}
+	
+	\columnratio{0.7}
+	\begin{paracol}{2}
+		\begin{leftcolumn}
+			\section*{Education}
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+			\textit{2015-2019} & \textbf{Télécom ParisTech} \\
+			& One of the top French Engineering school, specialized in applied mathematics and computer science \\
+			MSc & DataScience and Machine Learning	
+			\end{tabular}
+			
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+			\textit{2013-2015} & \textbf{Lycée aux Lazaristes} \\
+			 & Two-year intensive foundation course for competitive entrance in French engineering schools, specialization in Math and Physics
+			\end{tabular}
+		
+		\vspace{0.2cm}
+			
+			\section*{Experience}
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+			\textit{Spring 2018} & \textbf{Intitut Gustave Roussy} \\ 
+			& \textit{Machine Learning Research}, 6 months internship \\
+			& Institur Gustave Roussy is one of the world leading cancer research institutes of patient care, research and teaching\\
+			& Initiated a research project in the Therapeutic Innovation and Early Drug Development Department (DITEP) to design a decision support tool for doctors in the context of oncology phase I clinical trials \\
+			& Consisted in clinical database processing (tabular, categorical and free text data) and prediction model training for accurate patient selection (5 to 10\% improvement)
+			
+			\end{tabular}
+		
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+				\textit{Fall 2017} & \textbf{Claravista} \\
+				& \textit{Machine Learning Engineer}, 6 months internship \\
+				& Claravista is a Paris-based high performance marketing firm\\
+				& Implemented a LifeTime Value algorithm based on Random Forests and Markov Chains and integrated of the API to Claravista back-end data analytics platform
+%				 study state-of-the-art algorithms and technologies
+			\end{tabular}
+			
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+				\textit{Summer 2016} & \textbf{OLPC (NGO)}, volunteership \\
+				& Teaching basic computer science in a remote village in Madagascar, technical maintenance of educational laptops and Installation of a local intranet for the villagers
+			\end{tabular}
+			
+			\begin{tabular}{L{2cm}|p{0.8\linewidth}}
+				\textit{2016 - 2017} & \textbf{Student Cafeteria}, Manager \\
+				& Responsible of a team of 15 people and 100k€ annual budget community manager
+			\end{tabular}
+					
+			\vspace{0.2cm}
+			
+			\section*{Achievements}
+			\begin{tabular}{|p{0.95\linewidth} }
+				\textbf{Machine Learning Challenges} \\
+				Took part in two internal challenges: Acoustic Scene Classification and face recognition using machine and deep learning algorithms
+			\end{tabular}
+		
+			\begin{tabular}{|p{0.95\linewidth} }
+				\textbf{Collaborative Apprenticeship project} \\
+				Coding an Android app to creating music sheets using the voice, took care of signal processing 
+			\end{tabular}
+			
+			
+			\end{leftcolumn}
+	
+		\begin{rightcolumn}
+			\section*{Skills}
+			\textbf{Programming}  \\
+			\textit{Experienced}
+			\begin{itemize}
+				\item Python
+			\end{itemize}
+			\textit{Intermediate}
+			\begin{itemize}
+				\item Scala
+				\item Spark
+				\item Keras
+				\item SQL				
+			\end{itemize}
+			\vspace{0.2cm}
+			
+			\textbf{Softwares}
+			\begin{itemize}
+				\item Git for version control
+				\item Amazon Web Services
+				\item UNIX
+				\item Adobe Suite
+				\item \LaTeX
+			\end{itemize}
+			\vspace{0.2cm}
+			
+			\textbf{Technical}
+			\begin{itemize}
+				\item Natural Language Processing
+				\item Big Data
+				\item Optimization
+				\item Statistics
+				\item Deep Learning
+			\end{itemize}
+			\vspace{0.2cm}
+			
+			\textbf{Languages}
+			\begin{itemize}
+				\item French (native)
+				\item English (professional)
+				\item Spanish (basic)
+			\end{itemize}
+		
+		\section*{Hobbies}
+		\begin{itemize}
+			\item Active members of several student clubs: cafeteria, video, business forum
+			\item Music, organization of concerts as part of these clubs
+			\item Handball, high-level alpine skiing
+		\end{itemize}
+			
+		\end{rightcolumn}
+		
+	\end{paracol}
+	
+	
+	
+	
+\end{document}
+
+
+
+
+
+
