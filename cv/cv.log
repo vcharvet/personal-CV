@@ -1,4 +1,4 @@
-This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.24)  10 OCT 2018 11:03
+This is LuaTeX, Version 0.95.0 (TeX Live 2016/Debian)  (format=lualatex 2018.9.24)  8 JAN 2019 15:27
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.235 seconds
+luaotfload | main : initialization completed in 0.219 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -820,22 +820,22 @@ Overfull \hbox (5.978pt too wide) in paragraph at lines 121--125
  []
 
 
-Overfull \hbox (1.80725pt too wide) in paragraph at lines 187--188
+Overfull \hbox (1.80725pt too wide) in paragraph at lines 188--189
 \TU/lmr/m/n/10 eral stu-dent clubs: cafe-
  []
 
 
-Overfull \hbox (2.31624pt too wide) in paragraph at lines 187--188
+Overfull \hbox (2.31624pt too wide) in paragraph at lines 188--189
 \TU/lmr/m/n/10 te-ria, video, busi-ness fo-
  []
 
 
-Overfull \hbox (1.60225pt too wide) in paragraph at lines 188--189
+Overfull \hbox (1.60225pt too wide) in paragraph at lines 189--190
 \TU/lmr/m/n/10 con-certs as part of these
  []
 
 
-Overfull \hbox (14.42422pt too wide) in paragraph at lines 189--190
+Overfull \hbox (14.42422pt too wide) in paragraph at lines 190--191
 []\TU/lmr/m/n/10 Hand-ball, high-level alpine
  []
 
@@ -850,7 +850,7 @@ Here is how much of LuaTeX's memory you used:
  1082 words of node memory still in use:
    3 hlist, 3 vlist, 1 rule, 69 glue, 50 attribute, 54 glue_spec, 50 attribute_l
 ist, 1 write nodes
-   avail lists: 2:994,3:468,4:127,5:354,6:4824,7:2070,8:311,9:708,10:9,11:515
+   avail lists: 2:1006,3:474,4:131,5:358,6:4854,7:2092,8:311,9:716,10:9,11:519
  18560 multiletter control sequences out of 65536+600000
  36 fonts using 2768471 bytes
  36i,9n,60p,366b,382s stack positions out of 5000i,500n,10000p,200000b,100000s
@@ -862,7 +862,7 @@ otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></home/valo
 u/texmf/fonts/opentype/public/fontawesome/FontAwesome.otf></usr/share/texmf/font
 s/opentype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/publi
 c/lm/lmroman17-regular.otf>
-Output written on cv.pdf (1 page, 42777 bytes).
+Output written on cv.pdf (1 page, 42885 bytes).
 
 PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
